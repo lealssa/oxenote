@@ -1,0 +1,24 @@
+{
+  "name": "oxenote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./dist/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tiptap/core": "^2.5.9",
+    "@tiptap/pm": "^2.5.9",
+    "@tiptap/starter-kit": "^2.5.9",
+    "alpinejs": "^3.14.1",
+    "htmx.org": "^2.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.9",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

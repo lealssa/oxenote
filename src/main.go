@@ -16,7 +16,7 @@ func logRequest(handler http.Handler) http.Handler {
 
 func main() {
 
-	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
+	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("assets"))))
 
 	http.HandleFunc("/", handlers.RootHandler)
 

@@ -14,7 +14,8 @@
     "@tiptap/pm": "^2.5.9",
     "@tiptap/starter-kit": "^2.5.9",
     "alpinejs": "^3.14.1",
-    "htmx.org": "^2.0.1"
+    "htmx.org": "^2.0.1",
+    "preline": "^2.4.1"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.9",
